@@ -39,7 +39,7 @@ def test_can_call_endpoint():
 def test_can_get_addresses():
     response = requests.get(ENDPOINT + '/addresses', auth=(user, password))
     assert response.status_code == 200
-    print(response.text)
+ 
 
 
 def test_can_create_new_address():
