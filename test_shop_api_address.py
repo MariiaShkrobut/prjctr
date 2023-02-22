@@ -44,12 +44,14 @@ def test_can_get_addresses():
 
 def test_can_create_new_address():
     create_address_response = requests.post(ENDPOINT + '/addresses',
-                             auth=(user, password), data=new_address)
+                                            auth=(user, password), data=new_address)
     assert create_address_response.status_code == 201
     print(create_address_response.text)
     created_address_id = create_address_response.text.split('id')
     new_address_id = created_address_id[1].strip('>''/''<''!'']''CDATA''[')
     print(f'The id that was created is ' + new_address_id)
+
+
 def test_can_update_the_address():
     response = requests.post(ENDPOINT + '/addresses',
                              auth=(user, password), data=new_address)
