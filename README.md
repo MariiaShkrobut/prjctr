@@ -1,5 +1,4 @@
-
-<img src='logo/logo.png' >
+<img src='logo/logo.png' style="max-width: 50%;margin-left: 35%;" >
 
 
 <h1>Автоматизовані тести групи-2 Шалені Яскраві Бурундучки</h1>
