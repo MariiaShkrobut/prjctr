@@ -1,5 +1,5 @@
-<div styles='aligh-items:center'>
-<img src='logo/logo.png' width=50%>
+<div style="max-width: 50%;margin-left: 35%;">
+<img src='logo/logo.png' >
 </div>
 
 <h1>Автоматизовані тести групи-2 Шалені Яскраві Бурундучки</h1>
