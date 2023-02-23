@@ -1,4 +1,6 @@
-![alt text](logo/logo.png)
+<div styles='aligh-items:center'>
+<img src='logo/logo.png' width=50%>
+</div>
 
 <h1>Автоматизовані тести групи-2 Шалені Яскраві Бурундучки</h1>
 
